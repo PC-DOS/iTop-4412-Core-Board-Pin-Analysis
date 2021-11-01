@@ -73,3 +73,35 @@
 ## PIN22 - UH_DM2
 
 接开发板上百兆以太网芯片DM9621ANP的DM引脚，在核心板上接到USB3503A的USBDN2_DM（D2）引脚。
+
+## PIN23 - Xmmc2CMD
+
+接开发板上TF卡槽J1的CMD（命令）引脚，在核心板上接到4412芯片的Xmmc2CMD/GPK2_1（J4）引脚。
+
+## PIN24 - GND
+
+接地。
+
+## PIN25 - Xmmc2DATA2
+
+接开发板上TF卡槽J1的DAT2（数据线2）引脚，在核心板上接到4412芯片的Xmmc2DATA2/GPK2_5（K4）引脚。
+
+## PIN26 - Xmmc2CLK
+
+接开发板上TF卡槽J1的CLK（时钟）引脚，在核心板上接到4412芯片的Xmmc2CLK/GPK2_0（N4）引脚。
+
+## PIN27 - Xmmc2DATA3
+
+接开发板上TF卡槽J1的CD/DAT3（数据线3）引脚，在核心板上接到4412芯片的Xmmc2DATA3/GPK2_6（N5）引脚。
+
+## PIN28 - Xmmc2DATA0
+
+接开发板上TF卡槽J1的DAT0（数据线0）引脚，在核心板上接到4412芯片的Xmmc2DATA0/GPK2_3（J5）引脚。
+
+## PIN29 - GND
+
+接地。
+
+## PIN30 - Xmmc2DATA1
+
+接开发板上TF卡槽J1的DAT1（数据线1）引脚，在核心板上接到4412芯片的Xmmc2DATA1/GPK2_4（K5）引脚。
