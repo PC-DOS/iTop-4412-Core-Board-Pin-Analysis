@@ -90,6 +90,104 @@
 
 接地。
 
+## PIN27 - CAM_HREF
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciHREF/GPJ0_2（AE12）引脚。
+
+## PIN28 - CAM_MCLK
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciCLKenb/GPJ1_3（AG10）引脚。
+
+## PIN29 - CAM_D1
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciDATA1/GPJ0_4（AG11）引脚。
+
+## PIN30 - CAM_D0
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciDATA0/GPJ0_3（AF11）引脚。
+
+## PIN31 - CAM_D3
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciDATA3/GPJ0_6（AD13）引脚。
+
+## PIN32 - CAM_D2
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciDATA2/GPJ0_5（AE13）引脚。
+
+## PIN33 - CAM_D5
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciDATA5/GPJ1_0（AF12）引脚。
+
+## PIN34 - CAM_D4
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciDATA4/GPJ0_7（AC11）引脚。
+
+## PIN35 - CAM_D7
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciDATA7/GPJ1_2（AE11）引脚。
+
+## PIN36 - CAM_D6
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciDATA6/GPJ1_1（AC12）引脚。
+
+## PIN37 - I2C_SDA7
+
+接开发板相机/AVIN连接器座子J27和4.3寸RGB-LCD座子CN1并引出。在核心板上接到4412芯片的XpwmTOUT2/I2C_7_SDA/GPD0_2（AC19）引脚，同时通过1K电阻R32接到VDDIOPERI_18。
+
+## PIN38 - I2C_SCL7
+
+接开发板相机/AVIN连接器座子J27和4.3寸RGB-LCD座子CN1并引出。在核心板上接到4412芯片的XpwmTOUT3/I2C_7_SCL/GPD0_3（AC17）引脚，同时通过1K电阻R33接到VDDIOPERI_18。
+
+## PIN39 - CAM_PCLK
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciPCLK/GPJ0_0（AD12）引脚。
+
+## PIN40 - XciFIELD
+
+开发板上未引出。在核心板上接到4412芯片的XciFIELD/GPJ1_4（AD11）引脚。
+
+## PIN41 - CAM5M_RST
+
+接MIPI连接器座子J9和4.3寸RGB-LCD座子CN1并引出。在核心板上接到4412芯片的XGNSS_SDA/GPL1_1（AA1）引脚。
+
+## PIN42 - CAM_VSYNC
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XciVSYNC/GPJ0_1（AH11）引脚。
+
+## PIN43 - I2C_SCL6
+
+经开发板电平转换芯片74ALVC164245DGG（U9）转换为BUF_I2C_SCL6信号后接GPIO座子J38并引出。在核心板上接到4412芯片的Xi2s2SDO/PCM_2_SOUT/I2C_6_SCL/SPI_2_MOSI/GPC1_4（AG22）引脚，同时通过1K电阻R35接到VDD18_CAM。
+
+## PIN44 - CAM2M_RST
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XGNSS_ISIGN/GPL0_1（AC2）引脚。
+
+## PIN45 - I2C_SDA6
+
+经开发板电平转换芯片74ALVC164245DGG（U9）转换为BUF_I2C_SDA6信号后接GPIO座子J38并引出。在核心板上接到4412芯片的Xi2s2SDI/PCM_2_SIN/I2C_6_SDA/SPI_2_MISO/GPC1_3（AJ25）引脚，同时通过1K电阻R34接到VDD18_CAM。
+
+## PIN46 - CAM2M_PWDN
+
+接开发板相机/AVIN连接器座子J27并引出。在核心板上接到4412芯片的XGNSS_QSIGN/GPL0_3（AB1）引脚。
+
+## PIN47 - GND
+
+接地。
+
+## PIN48 - CAM5M_PWDN
+
+开发板上未引出。在核心板上接到4412芯片的XGNSS_GPIO_3/GPL2_3（AB3）引脚。
+
+## PIN49 - XadcAIN0
+
+开发板上接AD转换测试用滑动变阻器R24。在核心板上接到4412芯片的XadcAIN0（AF10）引脚。
+
+## PIN50 - PWRDN_VCM
+
+经开发板电平转换芯片74ALVC164245DGG（U9）转换为BUF_PWRDN_VCM信号后接开发板上USB2.0百兆以太网芯片DM9621ANP（U8）的RSTB（硬复位）引脚。在核心板上接到4412芯片的Xi2s1CDCLK/PCM_1_EXTCLK/AC97RESETn/GPC0_1（AG23）引脚。
+
+
+
 
 
 

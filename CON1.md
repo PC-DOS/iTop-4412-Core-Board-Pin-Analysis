@@ -64,7 +64,7 @@
 
 ## PIN20 - UH_DP2
 
-接开发板上百兆以太网芯片DM9621ANP的DP引脚。在核心板上接到USB3503A的USBDN2_DP（C2）引脚。
+接开发板上USB2.0百兆以太网芯片DM9621ANP（U8）的DP引脚。在核心板上接到USB3503A的USBDN2_DP（C2）引脚。
 
 ## PIN21 - GND
 
@@ -72,7 +72,7 @@
 
 ## PIN22 - UH_DM2
 
-接开发板上百兆以太网芯片DM9621ANP的DM引脚。在核心板上接到USB3503A的USBDN2_DM（D2）引脚。
+接开发板上USB2.0百兆以太网芯片DM9621ANP（U8）的DM引脚。在核心板上接到USB3503A的USBDN2_DM（D2）引脚。
 
 ## PIN23 - Xmmc2CMD
 
