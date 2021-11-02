@@ -216,7 +216,7 @@ ADC模拟输入通道3。
 
 ## PIN56 - MD_RESETBB
 
-开发板上未引出，在核心板上接到4412芯片的XGNSS_GPIO_1/GPL2_1（AB5）引脚。
+开发板上未引出。在核心板上接到4412芯片的XGNSS_GPIO_1/GPL2_1（AB5）引脚。
 
 ## PIN57 - GND
 
@@ -224,11 +224,11 @@ ADC模拟输入通道3。
 
 ## PIN58 - HUB_RESET
 
-开发板上未引出，在核心板上接到4412芯片的XGNSS_GPIO_2/GPL2_2（AB4）引脚。
+开发板上未引出。在核心板上接到4412芯片的XGNSS_GPIO_2/GPL2_2（AB4）引脚。
 
 ## PIN59 - Xmipi2LSDPCLK
 
-开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDPCLK（AJ5）引脚。
+开发板上未引出。在核心板上接到4412芯片的Xmipi2LSDPCLK（AJ5）引脚。
 
 ## PIN60 - GND
 
@@ -236,11 +236,11 @@ ADC模拟输入通道3。
 
 ## PIN61 - Xmipi2LSDNCLK
 
-开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDNCLK（AK5）引脚。
+开发板上未引出。在核心板上接到4412芯片的Xmipi2LSDNCLK（AK5）引脚。
 
 ## PIN62 - Xmipi2LSDP0
 
-开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDP0（AJ6）引脚。
+开发板上未引出。在核心板上接到4412芯片的Xmipi2LSDP0（AJ6）引脚。
 
 ## PIN63 - GND
 
@@ -248,11 +248,11 @@ ADC模拟输入通道3。
 
 ## PIN64 - Xmipi2LSDN0
 
-开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDN0（AK6）引脚。
+开发板上未引出。在核心板上接到4412芯片的Xmipi2LSDN0（AK6）引脚。
 
 ## PIN65 - Xmipi2LSDP1
 
-开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDP1（AJ4）引脚。
+开发板上未引出。在核心板上接到4412芯片的Xmipi2LSDP1（AJ4）引脚。
 
 ## PIN66 - GND
 
@@ -260,8 +260,52 @@ ADC模拟输入通道3。
 
 ## PIN67 - Xmipi2LSDN1
 
-开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDN1（AK4）引脚。
+开发板上未引出。在核心板上接到4412芯片的Xmipi2LSDN1（AK4）引脚。
 
+## PIN68 - Xi2s0SCLK/PCM_0_SCLK
 
+接开发板上音频模块WM8960GEFL（U10）的BCLK（音频接口位/比特时钟）引脚。在核心板上接到4412芯片的Xi2s0SCLK/PCM_0_SCLK/GPZ0（AA2）引脚。
 
+## PIN69 - GND
 
+接地。
+
+## PIN70 - Xi2s0LRCK/PCM_0_FSYNC
+
+接开发板上音频模块WM8960GEFL（U10）的DACLRC（音频接口DAC左/右时钟）引脚。在核心板上接到4412芯片的Xi2s0LRCK/PCM_0_FSYNC/GPZ2（Y2）引脚。
+
+## PIN71 - Xi2s0CDCLK/PCM_0_EXTCLK
+
+接开发板上音频模块WM8960GEFL（U10）的MCLK（主时钟输入）引脚。在核心板上接到4412芯片的Xi2s0CDCLK/PCM_0_EXTCLK/GPZ1（AA3）引脚。
+
+## PIN72 - Xi2s0SDO_0/PCM_0_SOUT
+
+接开发板上音频模块WM8960GEFL（U10）的DACDAT（数字音频DAC数据输入）引脚。在核心板上接到4412芯片的Xi2s0SDO_0/PCM_0_SOUT/GPZ4（Y3）引脚。
+
+## PIN73 - XspiCLK0/I2C_4_SDA
+
+接开发板上音频模块WM8960GEFL（U10）的SDIN（控制接口数据输入/双线响应输出）引脚。在核心板上接到4412芯片的XspiCLK0/I2C_4_SDA/GPB_0（AD20）引脚，同时通过1K电阻R19接到VDDIOPERI_18。
+
+## PIN74 - Xi2s0SDI/PCM_0_SIN
+
+接开发板上音频模块WM8960GEFL（U10）的ADCDAT（ADC数字音频数据输出）引脚。在核心板上接到4412芯片的Xi2s0SDI/PCM_0_SIN/GPZ3（Y4）引脚。
+
+## PIN75 - HUB_INT_N
+
+开发板上未引出。在核心板上接到4412芯片的XEINT19/KP_ROW3/ALV_DBG15/GPX2_3（F5）引脚。
+
+## PIN76 - XspiCSn0/I2C_4_SCL
+
+接开发板上音频模块WM8960GEFL（U10）的SCLK（控制接口时钟输入）引脚。在核心板上接到4412芯片的XspiCSn0/I2C_4_SCL/GPB_1（AE21）引脚，同时通过1K电阻R20接到VDDIOPERI_18。
+
+## PIN77 - HUB_CONNECT
+
+开发板上通过0欧电阻R175直通6260_GPIO脚（CON2, PIN5）。在核心板上接到4412芯片的Xmmc3CDn/GNSS_GPIO11/GPK3_2（L5）引脚。
+
+## PIN78 - GND
+
+接地。
+
+## PIN79,80 - VDD33_LCD
+
+接LCD驱动电平VDD33_LCD，该电平在开发板上接到电平转换芯片TXS0102DCU（U17）的VCCB引脚上。在核心板上，该电平从PMIC芯片S5M8767A的默认常开LDO引脚VLDO8输出。
