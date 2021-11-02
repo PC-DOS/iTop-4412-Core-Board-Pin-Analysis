@@ -182,11 +182,11 @@ TF卡槽供电。
 
 开发板上CON2_2_54P/NC（J5）的2号脚使用了该引脚。
 
-在核心板上接到4412芯片的XEINT18/KP_ROW2/ALV_DBG14/GPX2_2（G5）引脚。
+在核心板上接到4412芯片的XEINT18/KP_ROW2/ALV_DBG14/GPX2_2（G5）引脚。同时通过100K电阻R121接到VDDIOPERI_18。
 
 ## PIN49 - XEINT29/KP_ROW13/ALV_DBG25
 
-接开发板上UART+KEYPAD座子J41并引出，在核心板上接到4412芯片的XEINT29/KP_ROW13/ALV_DBG25/GPX3_5（C7）引脚。
+接开发板上UART+KEYPAD座子J41并引出，在核心板上接到4412芯片的XEINT29/KP_ROW13/ALV_DBG25/GPX3_5（C7）引脚。同时通过100K电阻R120接到VDDIOPERI_18。
 
 ## PIN50 - HOOK_DET
 
@@ -219,3 +219,44 @@ TF卡槽供电。
 ## PIN57 - COMPASS_RDY
 
 接开发板上GPIO座子J38并引出，在核心板上接到4412芯片的XEINT28/KP_ROW12/ALV_DBG24/GPX3_4（H9）引脚。
+
+## PIN58 - KP_ROW1
+
+接开发板上物理“音量+”（PWRON4）键，在核心板上接到4412芯片的XEINT17/KP_ROW1/ALV_DBG13/GPX2_1（F9）引脚。
+
+## PIN59 - XCLKOUT
+
+开发板上未引出，在核心板上接到4412芯片的XCLKOUT/ETC6_1（G4）引脚。
+
+## PIN60 - GPS_32K
+
+开发板上未引出，在核心板上接到PMIC芯片S5M8767A上Clock引脚分区的CP32K（C8）引脚。
+
+为PMIC芯片协处理器（CP）32.768 kHz时钟信号输出引脚。
+
+## PIN61 - XnRESET_EXT
+
+开发板上未引出，在核心板上经过0欧电阻R82和来自4412芯片XnRESET/ETC6_0（F7）引脚的XnRESET信号线连接，并汇入PMIC芯片S5M8767A上Control and Communications引脚分区的RSOB（F5）引脚。
+
+为PMIC芯片复位（RESET）信号输出引脚。
+
+## PIN62 - XnWRESET
+
+开发板上未引出，在核心板上接到4412芯片的XnWRESET/ETC6_3（F2）引脚。
+
+为4412芯片的热复位信号（WARM RESET）输入引脚，低电平有效。
+
+## PIN63 - PWRON
+
+开发板上经由RESET（SW1）按钮间接接到VSYS，在核心板上接到PMIC芯片S5M8767A上Control and Communications引脚分区的PWRON（E7）引脚。
+
+电源使能、系统上电引脚。
+
+## PIN64 - XnRSOUT
+
+开发板上未引出，在核心板上接到4412芯片的XnRSTOUT/ETC6_2（A4）引脚。
+
+推测为4412芯片的复位信号输出引脚。
+
+## PIN65 - ACOKB_CHARGER
+
