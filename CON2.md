@@ -86,6 +86,10 @@
 
 接开发板上USB OTG接口CON7的VBUS引脚。在核心板上接到4412芯片的XuotgVBUS（B8）引脚。
 
+## PIN25,26 - GND
+
+接地。
+
 
 
 
