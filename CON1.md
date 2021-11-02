@@ -260,3 +260,70 @@ TF卡槽供电。
 
 ## PIN65 - ACOKB_CHARGER
 
+开发板上使用800K（NC）电阻R173对VSYS断路，同时使用0欧电阻R174对地短接。
+
+在核心板上接到PMIC芯片S5M8767A上Control and Communications引脚分区的ACOKB（D6）引脚。
+
+外部充电器直流输入状态正常（VDCIN OK）信号引脚。
+
+## PIN66 - CHG_COK
+
+接开发板上UART+KEYPAD座子J41并引出，核心板上接4412芯片的XEINT23/KP_ROW7/ALV_DBG19/GPX2_7（E7）引脚。
+
+## PIN67 - CHG_DOK
+
+开发板上使用800K电阻R165接VSYS，在核心板上接到PMIC芯片S5M8767A上Control and Communications引脚分区的JIGONB（F7）引脚。
+
+JIG电源使能信号。
+
+## PIN68 - CHG_FLT
+
+接开发板上UART+KEYPAD座子J41并引出，核心板上接4412芯片的XEINT8/KP_COL0/ALV_DBG4/GPX1_0（A3）引脚。
+
+## PIN69 - 6260_GPIO1
+
+接开发板上UART+KEYPAD座子J41并引出，在核心板上接到4412芯片的XEINT22/KP_ROW6/ALV_DBG18/GPX2_6（E9）引脚。
+
+## PIN70 - DC33_EN
+
+接开发板上GPIO座子J38并引出，在核心板上接到4412芯片的Xmmc1CLK/GPK1_0（R2）引脚。
+
+## PIN71 - CHG_UOK
+
+接开发板上UART+KEYPAD座子J41并引出，在核心板上接到4412芯片的XEINT13/KP_COL5/ALV_DBG9/GPX1_5（E2）引脚。
+
+## PIN72 - I2C_SDA5
+
+开发板上未引出，在核心板上接到4412芯片的XspiMISO0/I2C_5_SDA/GPB_2（AH27）引脚，同时通过1K电阻R21接到VDDIOPERI_18。
+
+## PIN73 - VDD50_EN
+
+开发板上通过1K电阻R2和L9014三极管Q3以及SMD2012红色LED灯Q3连接，在核心板上连接到4412芯片的Xmmc1CMD/GPK1_1（J2）引脚。
+
+## PIN74 - I2C_SCL5
+
+开发板上未引出，在核心板上接到4412芯片的XspiMOSI0/I2C_5_SCL/GPB_3（AF21）引脚，同时通过1K电阻R22接到VDDIOPERI_18。
+
+## PIN75 - I2C_SCL1
+
+开发板上未引出，在核心板上接到4412芯片的Xi2c1SCL/GPD1_3（AG26）引脚，同时通过1K电阻R39接到VDDIOPERI_18。
+
+## PIN76 - I2C_SDA1
+
+开发板上未引出，在核心板上接到4412芯片的Xi2c1SDA/GPD1_2（AF26）引脚，同时通过1K电阻R38接到VDDIOPERI_18。
+
+## PIN77 - XUHOSTDATA0
+
+开发板上未引出，在核心板上接到4412芯片的XhsicDATA0（A7）引脚。
+
+直通4412芯片USB HSIC 0的数据引脚。
+
+## PIN78 - XUHOSTSTROBE0
+
+开发板上未引出，在核心板上接到4412芯片的XhsicSTROBE0（A6）引脚。
+
+直通4412芯片USB HSIC 0的选通引脚。
+
+## PIN79,80 - GND
+
+接地。
