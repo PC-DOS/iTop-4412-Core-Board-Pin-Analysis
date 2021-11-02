@@ -214,7 +214,53 @@ ADC模拟输入通道2。
 
 ADC模拟输入通道3。
 
-## PIN56 - 
+## PIN56 - MD_RESETBB
+
+开发板上未引出，在核心板上接到4412芯片的XGNSS_GPIO_1/GPL2_1（AB5）引脚。
+
+## PIN57 - GND
+
+接地。
+
+## PIN58 - HUB_RESET
+
+开发板上未引出，在核心板上接到4412芯片的XGNSS_GPIO_2/GPL2_2（AB4）引脚。
+
+## PIN59 - Xmipi2LSDPCLK
+
+开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDPCLK（AJ5）引脚。
+
+## PIN60 - GND
+
+接地
+
+## PIN61 - Xmipi2LSDNCLK
+
+开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDNCLK（AK5）引脚。
+
+## PIN62 - Xmipi2LSDP0
+
+开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDP0（AJ6）引脚。
+
+## PIN63 - GND
+
+接地。
+
+## PIN64 - Xmipi2LSDN0
+
+开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDN0（AK6）引脚。
+
+## PIN65 - Xmipi2LSDP1
+
+开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDP1（AJ4）引脚。
+
+## PIN66 - GND
+
+接地。
+
+## PIN67 - Xmipi2LSDN1
+
+开发板上未引出，在核心板上接到4412芯片的Xmipi2LSDN1（AK4）引脚。
 
 
 
