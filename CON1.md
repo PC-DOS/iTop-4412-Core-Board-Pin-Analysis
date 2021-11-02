@@ -32,7 +32,7 @@
 
 ## PIN12 - XuotgID
 
-接开发板上USB OTG接口CON7的ID引脚。在核心板上接到4412芯片的XuotgID引脚（D9）。
+接开发板上USB OTG接口CON7的ID引脚。在核心板上接到4412芯片的XuotgID（D9）引脚。
 
 ## PIN13 - MD_USBDN
 
@@ -40,7 +40,7 @@
 
 ## PIN14 - XuotgDP
 
-接开发板上USB OTG接口CON7的D+引脚。在核心板上接到4412芯片的XuotgDP引脚（A9）。
+接开发板上USB OTG接口CON7的D+引脚。在核心板上接到4412芯片的XuotgDP（A9）引脚。
 
 ## PIN15 - GND
 
@@ -48,7 +48,7 @@
 
 ## PIN16 - XuotgDM
 
-接开发板上USB OTG接口CON7的D-引脚。在核心板上接到4412芯片的XuotgDM引脚（A8）。
+接开发板上USB OTG接口CON7的D-引脚。在核心板上接到4412芯片的XuotgDM（A8）引脚。
 
 ## PIN17 - UH_DP3
 
