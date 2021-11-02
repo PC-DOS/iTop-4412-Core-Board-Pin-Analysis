@@ -182,11 +182,39 @@
 
 开发板上接AD转换测试用滑动变阻器R24。在核心板上接到4412芯片的XadcAIN0（AF10）引脚。
 
+ADC模拟输入通道0。
+
 ## PIN50 - PWRDN_VCM
 
 经开发板电平转换芯片74ALVC164245DGG（U9）转换为BUF_PWRDN_VCM信号后接开发板上USB2.0百兆以太网芯片DM9621ANP（U8）的RSTB（硬复位）引脚。在核心板上接到4412芯片的Xi2s1CDCLK/PCM_1_EXTCLK/AC97RESETn/GPC0_1（AG23）引脚。
 
+## PIN51 - XadcAIN1
 
+接开发板上GPIO座子J38并引出。在核心板上接到4412芯片的XadcAIN1（AE10）引脚。
+
+ADC模拟输入通道1。
+
+## PIN52 - CHG_EN
+
+开发板上经三极管和RC网络接到VSYS和VSYS_LCD。在核心板上接到4412芯片的XGNSS_QMAG/GPL0_4（AC5）引脚。
+
+## PIN53 - XadcAIN2
+
+接开发板上GPIO座子J38并引出。在核心板上接到4412芯片的XadcAIN2（AD10）引脚。
+
+ADC模拟输入通道2。
+
+## PIN54 - KP_COL0
+
+开发板上通过1K电阻R1和L9014三极管Q2以及SMD2012红色LED灯LED2连接。在核心板上连接到4412芯片的XGNSS_GPIO_0/GPL2_0（AA4）引脚。
+
+## PIN55 - XadcAIN3
+
+开发板上未引出。在核心板上接到4412芯片的XadcAIN3（AB11）引脚。
+
+ADC模拟输入通道3。
+
+## 
 
 
 
