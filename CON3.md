@@ -6,7 +6,7 @@
 
 接供电VDD1V8_EXT，在核心板上引自VDDIOPERI_18，该供电源引自核心板上PMIC芯片S5M8767A默认常开LDO脚VLDO12。
 
-开发板上AD转换测试用滑动变阻器R24、板载按键（音量控制、返回、休眠、菜单）、GPIO座子J38（引出脚）、UART+KEYPAD座子J41（引出脚）、电平转换芯片74ALVC164245DGG（U9）A侧参考电平、TF卡槽J1引脚上拉电平、音频芯片WM8960GEFL（U10）数字供电脚（DCVDD/DBVDD）、XEINT18/KP_ROW2/ALV_DBG14引脚上拉电平、电平转换芯片TXS0102DCU（U17、U28、U29）A侧参考电平、RGB-LVDS转换芯片GM8285C（U12）的并行数据时钟采样边沿选择端CLKSEL上拉电平及芯片供电（IOVCC1、IOVCC2）、JTAG座子（引出脚/引脚上拉电平）、HDMI座子CON9热插拔信号端（HOTPLUG）上拉电平、启动模式（OM）选择拨码开关上拉电平等均使用了这个电平。
+开发板上AD转换测试用滑动变阻器R24、板载按键（音量控制、返回、休眠、菜单）、GPIO座子J38（引出脚）、UART+KEYPAD座子J41（引出脚）、电平转换芯片74ALVC164245DGG（U9）A侧参考电平、TF卡槽J1引脚上拉电平、音频芯片WM8960GEFL（U10）数字供电脚（DCVDD/DBVDD）、XEINT18/KP_ROW2/ALV_DBG14引脚上拉电平、电平转换芯片TXS0102DCU（U17、U28、U29）A侧参考电平、RGB-LVDS转换芯片GM8285C（U12）的并行数据时钟采样边沿选择端CLKSEL上拉电平及芯片供电（IOVCC1、IOVCC2）、JTAG座子（引出脚/引脚上拉电平）、HDMI座子CON9热插拔信号端（HOTPLUG）上拉电平、启动模式（OM）选择拨码开关SW2上拉电平等均使用了这个电平。
 
 ## PIN2,4 - VDD28_AF
 
@@ -152,7 +152,33 @@ RGB-LVDS转换芯片关断控制信号，高电平时芯片正常输出，低电
 
 开发板上接GPIO座子J38并引出。在核心板上接4412芯片的XuTXD1/GPA0_5（AC18）引脚。
 
-## PIN64 - MD_PWON
+## PIN64 - MD_PWON（核心板上标注为MD_PWON）
+
+开发板上未引出。在核心板上接4412芯片的Xi2s1SCLK/PCM_1_SCLK/AC97BITCLK/GPC0_0（AE20）引脚。
+
+## PIN65 - XUCTS1
+
+开发板上未引出。在核心板上接4412芯片的XuCTSn1/I2C_2_SDA/GPA0_6（AD19）引脚。
+
+## PIN66 - MD_RSTN
+
+开发板上接MIPI连接器座子J9和4.3寸RGB-LCD座子CN1并引出。在核心板上接4412芯片的Xi2s1LRCK/PCM_1_FSYNC/AC97SYNC/GPC0_2（AH26）引脚。
+
+## PIN67 - AP_SLEEP
+
+开发板上接启动模式（OM）选择拨码开关SW2。在核心板上接4412芯片的Xi2s1SDI/PCM_1_SIN/AC97SDI/GPC0_3（AJ26）引脚。
+
+## PIN68 - AP_WAKEUP_MD
+
+开发板上未引出。在核心板上接4412芯片的Xi2s1SDO/PCM_1_SOUT/AC97SDO/GPC0_4（AH23）引脚。
+
+## PIN69 - MD_WAKEUP_AP
+
+接开发板Wi-Fi连接器座子J40并引出。在核心板上接4412芯片的XEINT21/KP_ROW5/ALV_DBG17/GPX2_5（E6）引脚。
+
+## PIN70,72 - V_BKCOIN
+
+
 
 
 
