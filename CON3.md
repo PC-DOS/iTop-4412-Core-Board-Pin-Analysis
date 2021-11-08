@@ -116,7 +116,9 @@ RGB-LVDS转换芯片关断控制信号，高电平时芯片正常输出，低电
 
 开发板上接电平转换芯片74ALVC164245DGG（U9）并接串口TTL电平转换芯片MAX3232CSE和串口CON3（调试串口）。在核心板上接4412芯片的XuRXD2/UART_AUDIO_RXD/GPA1_0（AC20）引脚。
 
-## PIN55 - 
+## PIN55 - GPS33_EN
+
+开发板上未引出。在核心板上接4412芯片的Xmmc2CDn/GNSS_GPIO10/GPK2_2（M4）引脚。
 
 
 
