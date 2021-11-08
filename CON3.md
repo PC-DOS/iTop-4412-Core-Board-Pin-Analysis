@@ -120,6 +120,40 @@ RGB-LVDS转换芯片关断控制信号，高电平时芯片正常输出，低电
 
 开发板上未引出。在核心板上接4412芯片的Xmmc2CDn/GNSS_GPIO10/GPK2_2（M4）引脚。
 
+## PIN56 - XuTXD2/UART_AUDIO_TXD
+
+开发板上接电平转换芯片74ALVC164245DGG（U9）并接串口TTL电平转换芯片MAX3232CSE和串口CON3（调试串口）。在核心板上接4412芯片的XuTXD2/UART_AUDIO_TXD/GPA1_1（AD25）引脚。
+
+## PIN57 - GPS_RXD
+
+开发板上接电平转换芯片74ALVC164245DGG（U9）并接串口TTL电平转换芯片MAX3232CSE和串口CON2，并从开发板上UART+KEYPAD座子J41引出。在核心板上接4412芯片的XuTXD3UART_AUDIO_TXD/GPA1_5（AD26）引脚。
+
+## PIN58 - UART_RING
+
+接开发板上物理“主页”（PWRON1）键。在核心板上接到4412芯片的XEINT9/KP_COL1/ALV_DBG5/GPX1_1（B5）引脚。
+
+## PIN59 - GPS_TXD
+
+开发板上接电平转换芯片74ALVC164245DGG（U9）并接串口TTL电平转换芯片MAX3232CSE和串口CON2，并从开发板上UART+KEYPAD座子J41引出。在核心板上接4412芯片的XuRXD3/UART_AUDIO_RXD/GPA1_4（AC24）引脚。
+
+## PIN60 - XuRXD1
+
+开发板上接电平转换芯片74ALVC164245DGG（U9）并从开发板上GPIO座子J38引出。在核心板上接4412芯片的XuRXD1/GPA0_4（AF22）引脚。
+
+## PIN61 - GPS_RST
+
+开发板上接电平转换芯片74ALVC164245DGG（U9）并从开发板上UART+KEYPAD座子J41引出。在核心板上接4412芯片的XspiCLK1/IEM_SCLK/GPB_4（AE23）引脚。
+
+## PIN62 - XURTS1
+
+开发板上接GPIO座子J41并引出。核心板上接4412芯片的XuRTSn1/I2C_2_SCL/GPA0_7（AG25）引脚。
+
+## PIN63 - XuTXD1
+
+开发板上接GPIO座子J38并引出。在核心板上接4412芯片的XuTXD1/GPA0_5（AC18）引脚。
+
+## PIN64 - MD_PWON
+
 
 
 
