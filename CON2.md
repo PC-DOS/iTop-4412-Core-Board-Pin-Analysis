@@ -152,7 +152,7 @@
 
 ## PIN41 - CAM5M_RST
 
-接MIPI连接器座子J9和4.3寸RGB-LCD座子CN1并引出。在核心板上接到4412芯片的XGNSS_SDA/GPL1_1（AA1）引脚。
+开发板上接MIPI连接器座子J9和4.3寸RGB-LCD座子CN1并引出。在核心板上接到4412芯片的XGNSS_SDA/GPL1_1（AA1）引脚。
 
 ## PIN42 - CAM_VSYNC
 
