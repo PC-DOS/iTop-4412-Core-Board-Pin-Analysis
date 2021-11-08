@@ -6,6 +6,10 @@
 
 接供电VDD33_A31，该供电源引自核心板上PMIC芯片S5M8767A默认关闭LDO脚VLDO24。该引脚电源输出在uBoot结束后被Linux系统内的驱动程序开启。
 
+300 mA，3.0 V供电脚。
+
+开发板上UART+KEYPAD座子J41（引出脚）、WIFI座子J40（引出脚）使用了这个电平。
+
 ## PIN3 - ISP_SCL
 
 开发板上未引出。在核心板上接4412芯片的XispI2C0SCL/CAM_GPIO10/GPM4_0（AE6）引脚，同时通过1K电阻R49接到VDD18_CAM。
@@ -308,4 +312,8 @@ ADC模拟输入通道3。
 
 ## PIN79,80 - VDD33_LCD
 
-接LCD驱动电平VDD33_LCD，该电平在开发板上接到电平转换芯片TXS0102DCU（U17）的VCCB引脚上。在核心板上，该电平从PMIC芯片S5M8767A的默认常开LDO引脚VLDO8输出。
+接LCD驱动电平VDD33_LCD，该电平在开发板上接到电平转换芯片TXS0102DCU（U17）的VCCB引脚上。在核心板上，该电平从PMIC芯片S5M8767A的默认常开LDO脚VLDO9输出。
+
+400 mA，3.0 V供电脚。
+
+开发板上电平转换芯片TXS0102DCU（U17）B侧参考电平使用了这个电平。
