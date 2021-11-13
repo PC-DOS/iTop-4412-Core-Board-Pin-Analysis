@@ -118,7 +118,7 @@ TF卡槽供电。
 
 ## PIN33 - VDD18_A31
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上从PMIC芯片S5M8767A的VLDO25（D12）引脚引出。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上从PMIC芯片S5M8767A的VLDO25（D12）引脚引出。
 
 ## PIN34 - BT_RST
 
@@ -128,19 +128,19 @@ TF卡槽供电。
 
 ## PIN35 - WIFI_WOW
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XEINT12/KP_COL4/ALV_DBG8/GPX1_4（H7）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XEINT12/KP_COL4/ALV_DBG8/GPX1_4（H7）引脚。
 
 ## PIN36 - WIFI_PWDN
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xi2s0SDO_1/ST_TICK/GPZ5（W4）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xi2s0SDO_1/ST_TICK/GPZ5（W4）引脚。
 
 ## PIN37 - WIFI_CLK
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3CLK/GPK3_0（L6）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3CLK/GPK3_0（L6）引脚。
 
 ## PIN38 - WIFI_CMD
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3CMD/GPK3_1（N6）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3CMD/GPK3_1（N6）引脚。
 
 ## PIN39 - GND
 
@@ -148,35 +148,35 @@ TF卡槽供电。
 
 ## PIN40 - WIFI_D1
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3DATA1/SD_2_DATA5/GPK3_4（M7）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3DATA1/SD_2_DATA5/GPK3_4（M7）引脚。
 
 ## PIN41 - WIFI_D0
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3DATA0/SD_2_DATA4/GPK3_3（M6）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3DATA0/SD_2_DATA4/GPK3_3（M6）引脚。
 
 ## PIN42 - WIFI_D3
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3DATA3/SD_2_DATA7/GPK3_6（M5）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3DATA3/SD_2_DATA7/GPK3_6（M5）引脚。
 
 ## PIN43 - WIFI_D2
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3DATA2/SD_2_DATA6/GPK3_5（N7）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的Xmmc3DATA2/SD_2_DATA6/GPK3_5（N7）引脚。
 
 ## PIN44 - XuRXD0
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XuTXD0/GPA0_1（AE25）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XuTXD0/GPA0_1（AE25）引脚。
 
 ## PIN45 - XuTXD0
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XuRXD0/GPA0_0（AD22）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XuRXD0/GPA0_0（AD22）引脚。
 
 ## PIN46 - XuCTSn0
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XuRTSn0/GPA0_3（AF23）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XuRTSn0/GPA0_3（AF23）引脚。
 
 ## PIN47 - XuRTSn0
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XuCTSn0/GPA0_2（AF25）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接到4412芯片的XuCTSn0/GPA0_2（AF25）引脚。
 
 ## PIN48 - XEINT18/KP_ROW2/ALV_DBG14
 

@@ -174,7 +174,7 @@ RGB-LVDS转换芯片关断控制信号，高电平时芯片正常输出，低电
 
 ## PIN69 - MD_WAKEUP_AP
 
-接开发板Wi-Fi连接器座子J40并引出。在核心板上接4412芯片的XEINT21/KP_ROW5/ALV_DBG17/GPX2_5（E6）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接4412芯片的XEINT21/KP_ROW5/ALV_DBG17/GPX2_5（E6）引脚。
 
 ## PIN70,72 - V_BKCOIN
 

@@ -26,11 +26,11 @@
 
 ## PIN7 - GPC1_1
 
-接开发板Wi-Fi座子J40并引出（和被NC电阻R28断开的WIFI_PWDN共用引脚），并经开发板电平转换芯片74ALVC164245DGG（U9）转换为BUF_GPC1_1信号后接GPIO座子J38。在核心板上接4412芯片的Xi2s2CDCLK/PCM_2_EXTCLK/SPDIF_EXTCLK/SPI_2_CLK/GPC1_1（AH25）引脚。
+接开发板上Wi-Fi连接器座子J40并引出（和被NC电阻R28断开的WIFI_PWDN共用引脚），并经开发板电平转换芯片74ALVC164245DGG（U9）转换为BUF_GPC1_1信号后接GPIO座子J38。在核心板上接4412芯片的Xi2s2CDCLK/PCM_2_EXTCLK/SPDIF_EXTCLK/SPI_2_CLK/GPC1_1（AH25）引脚。
 
 ## PIN8 - W_PMU_EN（核心板上标注为GPC1_0）
 
-接开发板Wi-Fi座子J40并引出。在核心板上接4412芯片的Xi2s2SCLK/PCM_2_SCLK/SPDIF_0_OUT/GPC1_0（AH24）引脚。
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接4412芯片的Xi2s2SCLK/PCM_2_SCLK/SPDIF_0_OUT/GPC1_0（AH24）引脚。
 
 ## PIN9 - XOM2
 
@@ -90,9 +90,138 @@ JTAG测试复位（TRST）引脚。
 
 接地。
 
+## PIN21 - XispSPIMISO
 
+接开发板上GPIO座子J38并引出。在核心板上接4412芯片的XispSPIMISO/CAM_GPIO16/GPM4_6（AH3）引脚。
 
+## PIN22 - XEINT14_BAK
 
+接开发板上UART+KEYPAD座子J41并引出。在核心板上接4412芯片的XEINT14/KP_COL6/ALV_DBG10/GPX1_6（D1）引脚。
 
+## PIN23 - GND
 
+接地。
 
+## PIN24 - BGF_INT（核心板上标注为XEINT20_BAK）
+
+接开发板上Wi-Fi连接器座子J40并引出。在核心板上接4412芯片的XEINT20/KP_ROW4/ALV_DBG16/GPX2_4（C4）引脚。
+
+## PIN25 - GND
+
+接地。
+
+## PIN26 - XispSPICLK
+
+接开发板上GPIO座子J38并引出。在核心板上接4412芯片的XispSPICLK/CAM_GPIO14/GPM4_4（AH1）引脚。
+
+## PIN27 - XmipiMDP0
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDP0（AJ17）引脚。
+
+## PIN28 - XispSPIMOSI
+
+接开发板上GPIO座子J38并引出。在核心板上接4412芯片的XispSPIMOSI/CAM_GPIO17/GPM4_7（AF1）引脚。
+
+## PIN29 - XmipiMDN0
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDN0（AK17）引脚。
+
+## PIN30 - XispI2C1SCL
+
+开发板上未引出。在核心板上接4412芯片的XispI2C1SCL/CAM_GPIO12/CAM_SPI1_CLK/GPM4_2（AE6）引脚，同时通过1K电阻R50接到VDDIOAP_18。
+
+## PIN31 - XmipiMDP1
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDP1（AJ16）引脚。
+
+## PIN32 - XispI2C1SDA
+
+开发板上未引出。在核心板上接4412芯片的XispI2C1SDA/CAM_GPIO13/CAM_SPI1_nSS/GPM4_3（AF7）引脚，同时通过1K电阻R53接到VDDIOAP_18。
+
+## PIN33 - XmipiMDN1
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDN1（AK16）引脚。
+
+## PIN34 - XvVSYNC_LDI
+
+开发板上未引出。在核心板上接4412芯片的XvVSYNC_LDI/GPF3_4（AC16）引脚。
+
+## PIN35 - XmipiMDPCLK
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDPCLK（AJ15）引脚。
+
+## PIN36 - XmipiMDP2
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDP2（AJ14）引脚。
+
+## PIN37 - XmipiMDNCLK
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDNCLK（AK15）引脚。
+
+## PIN38 - XmipiMDN2
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDN2（AK14）引脚。
+
+## PIN39 - XvSYS_OE
+
+开发板上未引出。在核心板上接4412芯片的XvSYS_OE/GPF3_5（AC14）引脚。
+
+## PIN40 - XmipiMDP3
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDP3（AJ13）引脚。
+
+## PIN41 - Xm0WEn
+
+开发板上未引出，在核心板上接4412芯片的Xm0WEn/MP00_5（Y6）引脚（和GPIO引脚组GPY存在复用）。
+
+外部总线接口（EBI）写选通引脚。
+
+## PIN42 - XmipiMDN3
+
+开发板上接MIPI连接器座子J9并引出。在核心板上接4412芯片的XmipiMDN3（AK13）引脚。
+
+## PIN43 - Xm0BEn0
+
+开发板上未引出，在核心板上接4412芯片的Xm0BEn0/MP01_0（H4）引脚（和GPIO引脚组GPY存在复用）。
+
+外部总线接口（EBI）字节写选通/字节选通引脚。
+
+## PIN44 - Xm0DATA_RDn
+
+开发板上未引出，在核心板上接4412芯片的Xm0DATA_RDn/MP01_3（R3）引脚（和GPIO引脚组GPY存在复用）。
+
+外部总线接口（EBI）数据就绪信号引脚。
+
+## PIN46 - Xm0cs1
+
+开发板上未引出，在核心板上接4412芯片的Xm0CSn1/NF_CSn3/MP00_1（R4）引脚（和GPIO引脚组GPY存在复用）。
+
+外部总线接口（EBI）片选信号1引脚。
+
+## PIN48 - Xm0OEn
+
+开发板上未引出，在核心板上接4412芯片的Xm0OEn/MP00_4（W7）引脚（和GPIO引脚组GPY存在复用）。
+
+外部总线接口（EBI）读选通引脚。
+
+## PIN73 - Xm0cs0
+
+开发板上未引出，在核心板上接4412芯片的Xm0CSn0/NF_CSn2/MP00_0（Y5）引脚（和GPIO引脚组GPY存在复用）。
+
+外部总线接口（EBI）片选信号0引脚。
+
+## PIN45,47,49,50,51,52,54-62,64 - Xm0DATA[0..15]
+
+开发板上未引出，在核心板上接4412芯片的Xm0DATA[0..15]引脚（和GPIO引脚组GPY存在复用）。
+
+外部总线接口（EBI）16位宽度数据（DATA）引脚。
+
+## PIN65,67-72,74 - Xm0ADDR[0..7]
+
+开发板上未引出，在核心板上接4412芯片的Xm0ADDR[0..7]引脚（和GPIO引脚组GPY存在复用）。
+
+外部总线接口（EBI）8位宽度地址（ADDR）引脚。
+
+## PIN53,63,66,75-80 - GND
+
+接地。
