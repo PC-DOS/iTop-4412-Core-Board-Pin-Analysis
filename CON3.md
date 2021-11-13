@@ -152,7 +152,7 @@ RGB-LVDS转换芯片关断控制信号，高电平时芯片正常输出，低电
 
 开发板上接GPIO座子J38并引出。在核心板上接4412芯片的XuTXD1/GPA0_5（AC18）引脚。
 
-## PIN64 - MD_PWON（核心板上标注为MD_PWON）
+## PIN64 - GPS_SYNC（核心板上标注为MD_PWON）
 
 开发板上未引出。在核心板上接4412芯片的Xi2s1SCLK/PCM_1_SCLK/AC97BITCLK/GPC0_0（AE20）引脚。
 
