@@ -296,7 +296,7 @@ ADC模拟输入通道3。
 
 ## PIN75 - HUB_INT_N
 
-开发板上未引出。在核心板上接到4412芯片的XEINT19/KP_ROW3/ALV_DBG15/GPX2_3（F5）引脚。
+开发板上未引出。在核心板上接到4412芯片的XEINT19/KP_ROW3/ALV_DBG15/GPX2_3（F5）引脚，并通过10K电阻R118上拉到VDDIOPERI_18，同时接USB主控USB3503A芯片的INT_N（低电平有效中断）引脚。
 
 ## PIN76 - XspiCSn0/I2C_4_SCL
 
